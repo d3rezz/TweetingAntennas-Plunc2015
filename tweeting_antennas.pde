@@ -1,4 +1,3 @@
-
 import processing.serial.*;
 import cc.arduino.*;
 import oauthP5.oauth.*;
@@ -29,10 +28,10 @@ final String READ_URL_KEYWORD = "https://api.twitter.com/1.1/search/tweets.json?
 
 
 final String POST_URL = "https://api.twitter.com/1/statuses/update.json";
-final String CONSUMER_KEY = "***REMOVED***"; // use your own app's key...
-final String CONSUMER_SECRET = "***REMOVED***";
-final String TOKEN = "***REMOVED***";
-final String TOKEN_SECRET="***REMOVED***";
+final String CONSUMER_KEY = ""; // use your own app's key...
+final String CONSUMER_SECRET = "";
+final String TOKEN = "";
+final String TOKEN_SECRET="";
 
 // OAuth
 OAuthService service = new ServiceBuilder()
